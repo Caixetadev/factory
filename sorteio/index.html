@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sorteio de Números</title>
+</head>
+
+<body>
+    <div class="App">
+        <div class="container">
+            <div class="logo">
+                <h1>Sorteio</h1>
+            </div>
+            <label>Sortear</label>
+            <input type="number" id="quantidade" value="1" min="1">
+            <label>Número</label><br>
+            <label>Entre</label>
+            <input type="number" id="entre" value="1" min="0">
+            <label>e</label>
+            <input type="number" id="entre2" value="100" min="1">
+        </div>
+    </div>
+    <div class="button">
+        <button class="sortear">Sortear Agora!</button>
+    </div>
+    <div class="containerNumeroSorteado"></div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
